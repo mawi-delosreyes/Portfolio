@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Menubar from './menubar.jsx'
-import App from './App.jsx'
-import './index.css'
+import Menubar from './components/menubar.jsx'
+import App from './components/App.jsx'
+import './assets/styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
