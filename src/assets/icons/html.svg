@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"/>
-<path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"/>
-<path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"/>
+<svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.16667 26.7857L0 0H26L23.8333 26.7857L13 30L2.16667 26.7857Z" fill="#E44D26"/>
+<path d="M23.8333 2.14282H13V28.3928L21.6667 25.7143L23.8333 2.14282Z" fill="#F16529"/>
+<path d="M5.95833 15.5357L4.875 5.35718H21.6667L21.125 8.57146H8.125L8.66667 12.3215H20.5833L19.5 22.5L13 24.6429L6.5 22.5L5.95833 17.1429H9.20833L9.75 19.8215L13 20.8929L16.25 19.8215L16.7917 15.5357H5.95833Z" fill="white"/>
 </svg>

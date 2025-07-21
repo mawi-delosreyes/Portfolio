@@ -1,0 +1,9 @@
+#footer {
+    font-family: 'Roboto', sans-serif;
+    color: #64748B;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}

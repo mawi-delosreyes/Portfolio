@@ -1,0 +1,73 @@
+#profile-picture {
+    border-radius: 10vw;
+    border: 2px solid #CBD5E1;
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw auto auto auto;
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    width: 100%;
+    margin-top: 1.5vw;
+}
+
+#about-text {
+    margin: 2vw 0 0 0;
+    max-width: 75ch;
+}
+
+#about-text h2 {
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color: #1E293B;    
+}
+
+#about-text p {
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    color: #475569;
+}
+
+#icons {
+    display: flex;
+    gap: 1vw;
+    list-style: none;
+    padding: 0;
+    margin: 2vw 0 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-layout {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 2.5vw;
+}
+
+.buttons {
+    width: 13vw;
+    height: 3.5vw;
+    align-items: center;
+    border-radius: 0.5vw;
+    border-color: transparent;
+}
+
+#email-button {
+    color: #FFFFFF;
+    background-color: #3B82F6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#resume-button {
+    color: #3B82F6;
+    border-color: #3B82F6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

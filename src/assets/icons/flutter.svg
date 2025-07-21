@@ -1,2 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>file_type_flutter</title><polyline points="15.383 18.316 18.744 15.042 27.093 15.042 19.697 22.438 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316" style="fill:#40d0fd"/><polygon points="4.907 16.125 9.106 20.424 27.093 2.287 18.744 2.287 4.907 16.125" style="fill:#41d0fd;isolation:isolate"/><polygon points="11.176 22.479 15.435 26.675 19.697 22.438 15.383 18.316 11.176 22.479" style="fill:#1fbcfd"/><polygon points="15.435 26.675 19.697 22.438 26.989 29.813 18.593 29.813 15.435 26.675" style="fill:#095a9d"/><polygon points="15.435 26.675 19.406 25.354 18.068 24.057 15.435 26.675" style="fill:#0e5199"/></svg>
+<svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.8047 17.4697L15.592 13.9015H24.9999L16.6659 21.9622L11.8047 17.4697Z" fill="#40D0FD"/>
+<path d="M0 15.0817L4.73159 19.7671L25 0H15.592L0 15.0817Z" fill="#41D0FD"/>
+<path d="M7.06421 22.0069L11.8634 26.58L16.666 21.9622L11.8048 17.4697L7.06421 22.0069Z" fill="#1FBCFD"/>
+<path d="M11.8633 26.58L16.6659 21.9622L24.8828 30H15.4218L11.8633 26.58Z" fill="#095A9D"/>
+<path d="M11.8633 26.58L16.3379 25.1403L14.8302 23.7267L11.8633 26.58Z" fill="#0E5199"/>
+</svg>
