@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutPage from './pages/About';
+import ExperiencePage from './pages/Experience';
 
 function App() {
 
@@ -11,7 +12,10 @@ function App() {
     <div>
       <Header />
       <NavBar />
-      <AboutPage />
+        <Routes>
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+        </Routes>
       <Footer />
     </div>
   );

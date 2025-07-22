@@ -43,6 +43,11 @@
     justify-content: center;
 }
 
+.icon {
+    width: 2vw;
+    height: 2vw;
+}
+
 #button-layout {
     display: flex;
     gap: 5vw;
@@ -63,6 +68,7 @@
     background-color: #3B82F6;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 1vw;
 }
 
 #resume-button {
@@ -70,4 +76,6 @@
     border-color: #3B82F6;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 1vw;
+    border-style: solid;
 }

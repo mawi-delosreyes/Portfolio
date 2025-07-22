@@ -29,19 +29,19 @@ function AboutPage() {
                 </p>
                 <div>
                     <ul id="icons">
-                        <li> <img src={htmlIcon}/> </li>
-                        <li> <img src={cssIcon}/> </li>
-                        <li> <img src={reactIcon}/> </li>
-                        <li> <img src={jsIcon}/> </li>
-                        <li> <img src={typescriptIcon}/> </li>
-                        <li> <img src={nodejsIcon}/> </li>
-                        <li> <img src={flutterIcon}/> </li>
-                        <li> <img src={dartIcon}/> </li>
-                        <li> <img src={pythonIcon}/> </li>
-                        <li> <img src={javaIcon}/> </li>
-                        <li> <img src={mysqlIcon}/> </li>
-                        <li> <img src={awsIcon}/> </li>
-                        <li> <img src={dockerIcon}/> </li>
+                        <li> <img src={htmlIcon} className='icon'/> </li>
+                        <li> <img src={cssIcon} className='icon'/> </li>
+                        <li> <img src={reactIcon} className='icon'/> </li>
+                        <li> <img src={jsIcon} className='icon'/> </li>
+                        <li> <img src={typescriptIcon} className='icon'/> </li>
+                        <li> <img src={nodejsIcon} className='icon'/> </li>
+                        <li> <img src={flutterIcon} className='icon'/> </li>
+                        <li> <img src={dartIcon} className='icon'/> </li>
+                        <li> <img src={pythonIcon} className='icon'/> </li>
+                        <li> <img src={javaIcon} className='icon'/> </li>
+                        <li> <img src={mysqlIcon} className='icon'/> </li>
+                        <li> <img src={awsIcon} className='icon'/> </li>
+                        <li> <img src={dockerIcon} className='icon'/> </li>
                     </ul>
                 </div>
 
