@@ -13,3 +13,40 @@
     display: flex;
     justify-content: center;
 }
+
+#university-icon {
+    z-index: 1;
+    height: 8vh;
+    margin: 5vh auto auto auto;
+    display: block;
+}
+
+#university-text {
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#university-text h4 {
+    font-size: 1.5vw;
+    color: #2D3748;
+    margin: 0 0 2vh 0;
+    width: 20vw;
+}
+
+#university-text h5 {
+    font-size: 1.2vw;
+    color: #4A5568;
+    margin: 0;
+    width: 20vw;
+}
+
+
+#udemy-icon {
+    z-index: 1;
+    height: 8vh;
+    margin: 5vh auto auto auto;
+    display: block;
+}
