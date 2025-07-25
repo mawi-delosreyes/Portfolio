@@ -1,0 +1,10 @@
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+    margin-top: 10vh;
+    padding: 2vw;
+    box-sizing: border-box;
+}
