@@ -14,8 +14,22 @@ function ExperiencePage() {
 
     return (
         <div id="experience">
-            <div id="timeline-content">
-            </div>
+
+            {activeIndex !== null ? (
+                <div className="timeline-content-container">
+                    <div id='timeline-content-selected'>
+                        <h3>{experiences[activeIndex].company}</h3>
+                        <h4>{experiences[activeIndex].role}</h4>
+                        <p>{experiences[activeIndex].period}</p>
+                    </div>
+                </div>
+            ) : (
+                <div className="timeline-content-container">
+                    <div id='timeline-content-not-selected'>
+                        <p>Please select an experience to view details.</p>
+                    </div>
+                </div>
+            )}
 
             <div id="timeline">
                 <div id="timeline-line"></div>
