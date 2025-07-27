@@ -1,4 +1,6 @@
 import '../styles/about.css';
+import { useState } from 'react';
+import Resume from '../components/Resume';
 import profilePicture from '../assets/images/profile_picture.png';
 import awsIcon from '../assets/icons/aws.svg';
 import cssIcon from '../assets/icons/css.svg';
@@ -16,6 +18,7 @@ import dockerIcon from '../assets/icons/docker.svg';
 
 
 function AboutPage() {
+    const [showResume, setShowResume] = useState(false);
     return (
         <div id="about-container">
             <div>
@@ -47,7 +50,8 @@ function AboutPage() {
 
                 <div id='button-layout'>
                     <button className='buttons' id='email-button'>SEND ME AN EMAIL</button>
-                    <button className='buttons' id='resume-button'>VIEW RESUME</button>
+                    <button className='buttons' id='resume-button' onClick={() => setShowResume(true)}>VIEW RESUME</button>
+                    <Resume isOpen={showResume} onClose={() => setShowResume(false)} />
                 </div>
             </div>
         </div>

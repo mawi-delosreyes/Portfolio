@@ -1,6 +1,6 @@
 import '../styles/header.css';
-import githubIcon from '../assets/icons/github.svg';
-import linkedinIcon from '../assets/icons/linkedin.svg';
+import GithubIcon from '../assets/icons/github.svg?react';
+import LinkedinIcon from '../assets/icons/linkedin.svg?react';
 
 function Header() {
     return (
@@ -9,8 +9,8 @@ function Header() {
 
             <div>
                 <ul id="header-media">
-                    <li> <img src={githubIcon} alt="Github icon" id='header-icons'/> </li>
-                    <li> <img src={linkedinIcon} alt="LinkedIn icon" id='header-icons'/> </li>
+                    <li><GithubIcon className="header-icons" /></li>
+                    <li><LinkedinIcon className="header-icons" /></li>
                 </ul>
             </div>
         </div>

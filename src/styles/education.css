@@ -32,16 +32,18 @@
 
 #university-text h4 {
     font-size: 1.5vw;
-    color: #2D3748;
+    color: #1E293B;
     margin: 0 0 2vh 0;
     width: 20vw;
+    font-family: Poppins, sans-serif;
 }
 
 #university-text h5 {
     font-size: 1.2vw;
-    color: #4A5568;
+    color: #334155;
     margin: 0;
     width: 20vw;
+    font-family: Poppins, sans-serif;
 }
 
 #online-course-container {
@@ -54,6 +56,8 @@
 
 #online-courses {
     font-family: Poppins, sans-serif;
+    font-size: 2vw;
+    color: #1E293B;
 }
 
 #course-container {
@@ -70,6 +74,9 @@
     margin: 0;
     padding: 0 1vw;
     list-style-type: '- ';
+    font-family: Roboto, sans-serif;
+    color: #334155;
+    font-size: 1vw;
 }
 
 .course-list {
@@ -81,11 +88,13 @@
     height: 5vh;
     justify-content: center;
     align-items: center;
-    padding: 1vh;
+    padding: 1.5vh;
 }
 
 #footer-note p {
     font-style: italic;
     text-align: center;
     font-size: 1.5vh;
+    font-family: Roboto, sans-serif;
+    color: #475569;
 }

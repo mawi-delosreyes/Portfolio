@@ -15,7 +15,6 @@ function ProjectCard({ title, githubUrl, liveUrl, description, languages, databa
 
       <h3> {title} </h3>
 
-
       <div className='project-buttons-container'>
         <button className='project-button'> Github </button>
         <button className='project-button'>

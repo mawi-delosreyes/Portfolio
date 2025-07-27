@@ -23,7 +23,8 @@ function ExperiencePage() {
           "Refactor and modernize legacy codebases for improved maintainability",
           "Implement CI/CD pipelines via GitLab and manage version control using GitLab",
           "Collaborate with cross-functional teams and stakeholders across departments",
-          "Produce technical documentation, architecture diagrams, and research reports for backend systems"
+          "Produce technical documentation, architecture diagrams, and research reports for backend systems",
+          "Project Handled: Weatherzone (Australia)"
         ],
         [
           "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware across 15+ solar project sites and over 50 devices",
@@ -32,16 +33,14 @@ function ExperiencePage() {
           "Managed cloud infrastructure using AWS services: EC2, IAM, Lambda, RDS, S3, SES, VPC, and CloudWatch",
           "Integrated payment gateways and weather APIs for internal systems",
           "Authored internal backend coding standards and comprehensive technical documentation",
-          "Led 2 major in-house projects (Envision Monitoring and Envision EV)"
+          "Led 2 major projects (Envision Monitoring and Envision EV)"
         ],
         [
-          "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware across 15+ solar project sites and over 50 devices",
+          "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware",
           "Designed and implemented relational database schemas using MySQL",
           "Optimized and refactored backend codebases for scalability and maintainability",
           "Managed cloud infrastructure using AWS services: EC2, IAM, Lambda, RDS, S3, SES, VPC, and CloudWatch",
-          "Integrated payment gateways and weather APIs for internal systems",
           "Authored internal backend coding standards and comprehensive technical documentation",
-          "Led 2 major in-house projects (Envision Monitoring and Envision EV)"
         ],
         [
           "Built and maintained websites using PHP, HTML, CSS, and JavaScript",
@@ -64,11 +63,13 @@ function ExperiencePage() {
                         <h4>{experiences[activeIndex].role}</h4>
                         <p>{experiences[activeIndex].period}</p>
 
-                        <ul>
-                            {experienceDetails[activeIndex].map((detail, index) => (
-                                <li key={index}>{detail}</li>
-                            ))}
-                        </ul>
+                        <div id='experience-details-container'>
+                            <ul>
+                                {experienceDetails[activeIndex].map((detail, index) => (
+                                    <li key={index}>{detail}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             ) : (

@@ -27,7 +27,7 @@ function EducationPage() {
                     </ul>
                 </div>
                 <div id='footer-note'> 
-                    <p> Please click the course to see the certificate </p>
+                    <p> Please scroll and click through the courses to see the certificate </p>
                 </div>
             </div>
         </div>
