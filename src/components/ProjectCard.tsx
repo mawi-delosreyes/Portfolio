@@ -4,21 +4,28 @@ interface ProjectCardProps {
   title: string;
   githubUrl: string;
   liveUrl?: string;
+  figmaUrl?: string;
   description: string;
   languages: string[];
   database?: string;
 }
 
-function ProjectCard({ title, githubUrl, liveUrl, description, languages, database }: ProjectCardProps) {
+function ProjectCard({ title, githubUrl, liveUrl, figmaUrl, description, languages, database }: ProjectCardProps) {
   return (
     <div className="project-card">
 
       <h3> {title} </h3>
 
       <div className='project-buttons-container'>
-        <button className='project-button'> Github </button>
-        <button className='project-button'>
-          {liveUrl ? 'Live' : 'Figma'}
+        <button className="project-button" onClick={() => window.open(githubUrl, '_blank', 'noopener,noreferrer')}>
+          Github
+        </button>
+        <button
+          className="project-button"
+          onClick={() => window.open(liveUrl || figmaUrl, '_blank', 'noopener,noreferrer')}
+          disabled={!liveUrl && !figmaUrl}
+        >
+          {liveUrl ? 'Live' : figmaUrl ? 'Figma' : 'Disabled'}
         </button>
       </div>
 
