@@ -25,7 +25,7 @@ function ProjectCard({ title, githubUrl, liveUrl, figmaUrl, description, languag
           onClick={() => window.open(liveUrl || figmaUrl, '_blank', 'noopener,noreferrer')}
           disabled={!liveUrl && !figmaUrl}
         >
-          {liveUrl ? 'Live' : figmaUrl ? 'Figma' : 'Disabled'}
+          {liveUrl ? 'Live' : figmaUrl ? 'Figma' : 'Not Available'}
         </button>
       </div>
 

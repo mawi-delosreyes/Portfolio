@@ -57,26 +57,32 @@ function ExperiencePage() {
         <div id="experience">
 
             {activeIndex !== null ? (
-                <div className="timeline-content-container">
-                    <div id='timeline-content-selected'>
-                        <h3>{experiences[activeIndex].company}</h3>
-                        <h4>{experiences[activeIndex].role}</h4>
-                        <p>{experiences[activeIndex].period}</p>
+                <div className='experience-container'>
+                    <div className="timeline-content-container">
+                        <div id='timeline-content-selected'>
+                            <h3>{experiences[activeIndex].company}</h3>
+                            <h4>{experiences[activeIndex].role}</h4>
+                            <p>{experiences[activeIndex].period}</p>
 
-                        <div id='experience-details-container'>
-                            <ul>
-                                {experienceDetails[activeIndex].map((detail, index) => (
-                                    <li key={index}>{detail}</li>
-                                ))}
-                            </ul>
+                            <div id='experience-details-container'>
+                                <ul>
+                                    {experienceDetails[activeIndex].map((detail, index) => (
+                                        <li key={index}>{detail}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <p className='note'> Please scroll through some job experiences </p>
                 </div>
             ) : (
-                <div className="timeline-content-container">
-                    <div id='timeline-content-not-selected'>
-                        <p>Please select an experience to view details.</p>
+                <div className='experience-container'>
+                    <div className="timeline-content-container">
+                        <div id='timeline-content-not-selected'>
+                            <p>Please select an experience to view details.</p>
+                        </div>
                     </div>
+                    <p className='note'> Please scroll through some job experiences </p>
                 </div>
             )}
 
