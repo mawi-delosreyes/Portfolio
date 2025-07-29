@@ -15,10 +15,12 @@ import javaIcon from '../assets/icons/java.svg';
 import reactIcon from '../assets/icons/reactjs.svg';
 import typescriptIcon from '../assets/icons/typescript.svg';
 import dockerIcon from '../assets/icons/docker.svg';
-
+import Email from '../components/Email';
 
 function AboutPage() {
     const [showResume, setShowResume] = useState(false);
+    const [showEmailForm, setShowEmailForm] = useState(false);
+
     return (
         <div id="about-container">
             <div>
@@ -27,7 +29,7 @@ function AboutPage() {
 
             <div id='about-text'>
                 <h2>Hi, I'm Mark!</h2>
-                <p>
+                <p id='professional-summary'>
                     A Software Engineer who builds clean, scalable APIs and infrastructure that teams trust — maintainable by design, performant by default.
                 </p>
                 <div>
@@ -49,9 +51,10 @@ function AboutPage() {
                 </div>
 
                 <div id='button-layout'>
-                    <button className='buttons' id='email-button'>SEND ME AN EMAIL</button>
+                    <button className="buttons" id='email-button' onClick={() => setShowEmailForm(true)}>SEND ME AN EMAIL</button>
                     <button className='buttons' id='resume-button' onClick={() => setShowResume(true)}>VIEW RESUME</button>
                     <Resume isOpen={showResume} onClose={() => setShowResume(false)} />
+                    <Email show={showEmailForm} onClose={() => setShowEmailForm(false)} />
                 </div>
             </div>
         </div>

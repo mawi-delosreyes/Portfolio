@@ -1,0 +1,110 @@
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#modal-content {
+    width: 30vw;
+    height: 57vh;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 0.5vw;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#close-modal {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    width: 2vw;
+    height: 2vw;
+    color: #FF0000;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3vw;
+}
+
+#modal-header {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 2.5vh;
+    color: #1E293B;
+    margin: 2vh auto 1vh auto;
+}
+
+#email-form {
+    height: 35vh;
+}
+
+#email-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vh auto;
+}
+
+#email-text,
+#subject-text,
+#message-text {
+    color: #1E293B;
+}
+
+#subject-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vh auto;
+
+}
+
+#message-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vh auto 0 auto;
+}
+
+#email-note {
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+    color: #334155;
+    font-size: 0.9vw;
+    margin: 0 auto 2.5vh auto;
+}
+
+.form-input-box {
+    height: 3.4vh;
+    margin-bottom: 2vh;
+    border-color: #3B82F6;
+    border-style: solid;
+    color: #334155; 
+    font-family: Roboto, sans-serif;
+}
+
+#form-message-box {
+    height: 15vh;
+    margin-bottom: 2vh;
+    border-color: #3B82F6;
+    border-style: solid;
+    resize: none;
+    color: #334155; 
+    font-family: Roboto, sans-serif;
+}
+
+#submit-button {
+    height: 4vh;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #3B82F6;
+    border-style: solid;
+    border-color: transparent;
+    font-family: Roboto, sans-serif;
+}

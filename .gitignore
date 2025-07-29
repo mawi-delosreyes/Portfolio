@@ -26,3 +26,4 @@ tsconfig.node.json
 *.sw?
 
 ._*
+.env
