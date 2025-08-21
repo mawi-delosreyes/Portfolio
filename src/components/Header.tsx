@@ -10,11 +10,11 @@ function Header() {
             <div>
                 <ul id="header-media">
                     <a href="https://github.com/mawi-delosreyes" target="_blank" rel="noopener noreferrer">
-                        <li><GithubIcon className="header-logo" /></li>
+                        <li><GithubIcon className="header-icons" /></li>
                     </a>
 
                     <a href="https://www.linkedin.com/in/mwdelosreyes/" target="_blank" rel="noopener noreferrer">
-                        <li><LinkedinIcon className="header-logo" /></li>
+                        <li><LinkedinIcon className="header-icons" /></li>
                     </a>
                 </ul>
             </div>
