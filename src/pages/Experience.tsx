@@ -1,15 +1,19 @@
 import { useState } from 'react';
 import '../styles/experience.css';
+import dtnLogo from '../assets/logo/dtn.png';
+import solenergyLogo from '../assets/logo/solenergy.png';
+import cooeeLogo from '../assets/logo/cooee.png';
+import realtairLogo from '../assets/logo/realtair.png';
 
 function ExperiencePage() {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
     const experiences = [
-        { role: "Software Engineer", company: "DTN Philippines Inc.", period: "2024 to Present", top: '10%' },
-        { role: "Backend Developer", company: "Solenergy Systems Inc.", period: "2023 to 2024", top: '30%' },
-        { role: "Junior Backend Developer", company: "Solenergy Systems Inc.", period: "2022 to 2023", top: '50%' },
-        { role: "Backend Developer", company: "Cooee Inc.", period: "2021 to 2021", top: '70%' },
-        { role: "Software Engineer - Data Science Intern", company: "Realtair Inc.", period: "2021 to 2021", top: '90%' }
+        { role: "Software Engineer", company: "DTN Philippines Inc.", period: "2024 to Present", top: '10%', logo: dtnLogo },
+        { role: "Backend Developer", company: "Solenergy Systems Inc.", period: "2023 to 2024", top: '30%', logo: solenergyLogo },
+        { role: "Junior Backend Developer", company: "Solenergy Systems Inc.", period: "2022 to 2023", top: '50%', logo: solenergyLogo },
+        { role: "Backend Developer", company: "Cooee Inc.", period: "2021 to 2021", top: '70%', logo: cooeeLogo },
+        { role: "Software Engineer - Data Science Intern", company: "Realtair Inc.", period: "2021 to 2021", top: '90%', logo: realtairLogo }
     ];
 
     const experienceDetails = [
@@ -60,7 +64,10 @@ function ExperiencePage() {
                 <div className='experience-container'>
                     <div className="timeline-content-container">
                         <div id='timeline-content-selected'>
-                            <h3>{experiences[activeIndex].company}</h3>
+                            <div className="company-header">
+                                <img src={experiences[activeIndex].logo} alt="company logo" className="company-logo" />
+                                <h3>{experiences[activeIndex].company}</h3>
+                            </div>
                             <h4>{experiences[activeIndex].role}</h4>
                             <p>{experiences[activeIndex].period}</p>
 

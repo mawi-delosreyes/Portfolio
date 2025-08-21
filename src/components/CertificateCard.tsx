@@ -1,7 +1,7 @@
 import '../styles/certificatecard.css';
-import LinkedinIcon from '../assets/icons/linkedin-blue.svg';
-import UdemyIcon from '../assets/icons/udemy.svg';
-import LinkIcon from '../assets/icons/link.svg';
+import LinkedinIcon from '../assets/logo/linkedin-blue.svg';
+import UdemyIcon from '../assets/logo/udemy.svg';
+import LinkIcon from '../assets/logo/link.svg';
 
 interface CertificateCardProps {
   title: string;

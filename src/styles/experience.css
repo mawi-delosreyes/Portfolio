@@ -154,3 +154,14 @@
     font-style: italic;
     text-align: center;
 }
+
+.company-logo {
+    height: 1.2vw;
+    width: auto;
+}
+
+.company-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
