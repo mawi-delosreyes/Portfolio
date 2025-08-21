@@ -74,6 +74,7 @@
 #resume-button {
     color: #3B82F6;
     border-color: #3B82F6;
+    background-color: transparent;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1vw;
