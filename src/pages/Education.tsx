@@ -19,43 +19,43 @@ function EducationPage() {
     const certificates = [
         {
             title: "User Experience Design and User Interface Design Fundamentals",
-            date: "June 2023",
+            date: "August 2025",
             source: "udemy",
             certificateUrl: User_Experience_Design_and_User_Interface_Design_Fundamentals
         },
         {
             title: "GitLab CI/CD: Pipelines, Cl/CD and Dev Ops for Beginners",
-            date: "June 2023",
+            date: "July 2025",
             source: "udemy",
             certificateUrl: GitLab_CI_CD_from_a_GitLab_Hero_Learn_valuable_DevOps_skills_Build_pipelines_and_Deploy_to_AWS
         },
         {
             title: "Machine Learning for Data Analysis: Classification Modeling",
-            date: "July 2023",
+            date: "February 2025",
             source: "udemy",
             certificateUrl: Machine_Learning_for_Data_Analysis_Classification_Modeling
         },
         {
             title: "Machine Learning for Data Analysis: Data Profiling and QA",
-            date: "August 2023",
+            date: "January 2025",
             source: "udemy",
             certificateUrl: Machine_Learning_for_Data_Analysis_Data_Profiling_and_QA
         },
         {
             title: "iOS App Development: Test-Driven Development",
-            date: "June 2022",
+            date: "July 2022",
             source: "linkedin",
             certificateUrl: iOS_App_Development_Test_Driven_Development
         },
         {
             title: "Learning Design Thinking: Lead Change in Your Organization",
-            date: "September 2022",
+            date: "June 2022",
             source: "linkedin",
             certificateUrl: Learning_Design_Thinking_Lead_Change_in_Your_Organization
         },
         {
             title: "Node.js Essential Training (2019)",
-            date: "October 2019",
+            date: "June 2022",
             source: "linkedin",
             certificateUrl: Nodejs_Essential_Training_2019
         }
