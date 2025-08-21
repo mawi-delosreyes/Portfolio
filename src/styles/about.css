@@ -35,7 +35,7 @@
 
 #icons {
     display: flex;
-    gap: 1vw;
+    gap: clamp(8px, 1vw, 16px);
     list-style: none;
     padding: 0;
     margin: 2vw 0 0 0;
@@ -44,8 +44,8 @@
 }
 
 .icon {
-    width: 2vw;
-    height: 2vw;
+    width: clamp(18px, 2vw, 36px);
+    height: clamp(18px, 2vw, 36px);
 }
 
 #button-layout {

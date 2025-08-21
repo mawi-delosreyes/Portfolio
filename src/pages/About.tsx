@@ -1,6 +1,6 @@
 import '../styles/about.css';
 import { useState } from 'react';
-import Resume from '../components/Resume';
+import Popup from '../components/popupPDF';
 import profilePicture from '../assets/images/profile_picture.png';
 import awsIcon from '../assets/icons/aws.svg';
 import cssIcon from '../assets/icons/css.svg';
@@ -16,10 +16,12 @@ import reactIcon from '../assets/icons/reactjs.svg';
 import typescriptIcon from '../assets/icons/typescript.svg';
 import dockerIcon from '../assets/icons/docker.svg';
 import Email from '../components/Email';
+import resume from '/Mark_de_los_Reyes_Resume.pdf'
 
 function AboutPage() {
     const [showResume, setShowResume] = useState(false);
     const [showEmailForm, setShowEmailForm] = useState(false);
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     return (
         <div id="about-container">
@@ -30,7 +32,7 @@ function AboutPage() {
             <div id='about-text'>
                 <h2>Hi, I'm Mark!</h2>
                 <p id='professional-summary'>
-                    A Software Engineer who builds clean, scalable APIs and infrastructure that teams trust — maintainable by design, performant by default.
+                    A Software Engineer who builds clean, scalable APIs and infrastructure that teams trust — simple and maintainable by design, performant by default.
                 </p>
                 <div>
                     <ul id="icons">
@@ -51,9 +53,13 @@ function AboutPage() {
                 </div>
 
                 <div id='button-layout'>
-                    <button className="buttons" id='email-button' onClick={() => setShowEmailForm(true)}>SEND ME AN EMAIL</button>
-                    <button className='buttons' id='resume-button' onClick={() => setShowResume(true)}>VIEW RESUME</button>
-                    <Resume isOpen={showResume} onClose={() => setShowResume(false)} />
+                    <button className="buttons" id='email-button' onClick={() => setShowEmailForm(true)}>GET IN TOUCH!</button>
+                    <button className='buttons' id='resume-button' onClick={() => setIsPopupOpen(true)}>VIEW RESUME</button>
+                    <Popup 
+                        isOpen={isPopupOpen} 
+                        onClose={() => setIsPopupOpen(false)} 
+                        pdfUrl={resume}
+                    />
                     <Email show={showEmailForm} onClose={() => setShowEmailForm(false)} />
                 </div>
             </div>

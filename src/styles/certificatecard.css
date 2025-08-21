@@ -1,0 +1,40 @@
+#certificate-cards {
+    position: relative;
+    height: 8vh;
+    width: 25vw;
+    background-color: #EEF8FF;
+    border-radius: 1vw;
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#certificate-cards h3,
+#certificate-cards p {
+  margin: 0 1vh;
+}
+
+#certificate-cards h3 {
+    font-size: 1.5vh;
+    color: #1E293B;
+    font-family: Poppins, sans-serif;
+}
+
+#certificate-cards p {
+    font-size: 1.5vh;
+    color: #1E293B;
+    font-family: Roboto, sans-serif;
+}
+
+#source-icon {
+    height: 3vh;
+    width: 3vh;
+    margin: 0.5rem;
+}
+
+#link-icon {
+    margin-left: auto;
+    margin-right: 0.5rem;
+}

@@ -1,4 +1,4 @@
-.resume-overlay {
+.popup-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     z-index: 1000;
 }
 
-.resume {
+.popup {
     position: relative;
     background: white;
     padding: 1rem;
@@ -20,18 +20,19 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .close-button {
+.close-button {
     align-self: flex-end;
     margin-bottom: 1rem;
     background: transparent;
     border: none;
     font-size: 1.5vw;
     cursor: pointer;
-  }
+    color: #FF0000;
+}
   
-  .resume-frame {
+.popup-frame {
     flex: 1;
     border: none;
-  }
+}
