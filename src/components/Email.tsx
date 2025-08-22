@@ -12,11 +12,14 @@ interface EmailProps {
 function Email({ show, onClose, onSuccess }: EmailProps) {
   const formRef = useRef<HTMLFormElement>(null);
   const [emailSent, setEmailSent] = useState(false);
+  const [isSending, setIsSending] = useState(false);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!formRef.current) return;
+    if (!formRef.current || isSending) return;
+
+    setIsSending(true);
 
     emailjs.sendForm(
       import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -27,10 +30,12 @@ function Email({ show, onClose, onSuccess }: EmailProps) {
     .then(
       () => {
         setEmailSent(true);
+        setIsSending(false);
         onSuccess();
       },
       (error) => {
         alert('Failed to send email. Please try again.');
+        setIsSending(false);
         console.error(error);
       }
     );
@@ -64,7 +69,13 @@ function Email({ show, onClose, onSuccess }: EmailProps) {
 
               <p id='email-note'> Note: Due to EmailJS verification requirements, this message will be sent from my verified email address. However, the email you provide will be included as the reply-to address so I can respond to you directly. </p>
 
-              <button type="submit" id='submit-button'> Send Email </button>
+              <button
+                type="submit"
+                id='submit-button'
+                disabled={isSending}
+              >
+                {isSending ? "Sending..." : "Send Email"}
+              </button>
 
             </form>
           </>
