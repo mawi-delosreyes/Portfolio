@@ -115,7 +115,7 @@
 
     .background-squares-online-courses {
         position: relative;
-        height: 38vh;
+        height: 40vh;
         width: 85%;
         background-color: #FFFFFF;
         border-color: #E2E8F0;
@@ -172,7 +172,7 @@
     }
 
     #certificate-container {
-        height: 28vh;
+        height: 30vh;
         overflow-y: auto;
         scrollbar-width: none;
         display: flex;
