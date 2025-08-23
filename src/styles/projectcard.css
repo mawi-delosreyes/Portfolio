@@ -77,3 +77,45 @@
     cursor: not-allowed;
     opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+    .project-card {
+        height: 25vh;
+        width: 80vw;
+        margin: 0 auto;
+        border-radius: 1vh;
+    }
+
+    .project-card h3 {
+        font-size: 4vw;
+        margin: 1.5vh auto 1vh auto;
+    }
+
+    .project-buttons-container {
+        gap: 10vw;
+    }
+
+    .project-button {
+        width: 20vw;
+        height: 2.8vh;
+        font-size: 1.5vh;
+        border-radius: 0.5vh;
+    }
+
+    #description-box {
+        height: 8vh;
+        margin: 2vh auto 0 auto;
+    }
+
+    #description-text {
+        font-size: 3vw;
+    }
+
+    #card-footer {
+        margin: 0 auto 0 auto;
+    }
+
+    .footer-text {
+        font-size: 2.8vw;
+    }
+}

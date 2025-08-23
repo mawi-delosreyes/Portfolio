@@ -34,3 +34,36 @@
     color: #1E293B;
     fill: currentColor;  
 }
+
+@media (max-width: 768px) {
+
+    #header {
+        display: flex;
+        gap: 55vw;
+        list-style: none;
+        padding: 0;
+        margin-top: 1.5vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header-media {
+        display: flex;
+        gap: 2vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header-name {
+        margin-top: 1vw;
+        font-size: 1.3vh;
+    }
+
+    .header-icons {
+        height: 1.5vh;
+        width: 1.5vh; 
+    }
+}

@@ -63,7 +63,7 @@ function EducationPage() {
 
     return (
         <div className="background-container">
-            <div className='background-squares'>
+            <div className='background-squares-university'>
                 <img id="university-icon" src={universityIcon}/>
                 <div id='university-text'>
                     <h4>Bachelor of Science in Computer Science</h4>
@@ -71,7 +71,7 @@ function EducationPage() {
                 </div>
             </div>
 
-            <div className='background-squares'>
+            <div className='background-squares-online-courses'>
                 <div id='online-course-container'>
                     <h1 id='online-courses'> Online Courses and certificates </h1>
                 </div>
@@ -80,24 +80,17 @@ function EducationPage() {
                     {certificates.map((cert, index) => (
                         <div 
                             key={index}
-                            onClick={() => {
-                                setActiveIndex(index);
-                                setIsPopupOpen(true);
-                            }}
                         >
                             <CertificateCard
                                 title={cert.title}
                                 issueDate={cert.date}
-                                cerificate="sample"
                                 source={cert.source}
+                                onLinkClick={() => window.open(cert.certificateUrl)}
                             />
                         </div>
                     ))}
                 </div>
 
-                <div id='footer-note'> 
-                    <p> Please scroll and click through the courses to see the certificate </p>
-                </div>
             </div>
             <Popup 
                 isOpen={isPopupOpen} 

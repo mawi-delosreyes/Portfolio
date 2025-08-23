@@ -4,7 +4,7 @@
     border-radius: 3vw;
     background-color: #FFFFFF;
     width: 55vw;
-    height: 3.5vw;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,37 @@
 
 #navbar-content li a.active-link {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    #navbar {
+        border-color: #CBD5E1;
+        border: 2px;
+        border-radius: 3vw;
+        background-color: #FFFFFF;
+        width: 80vw;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3vh auto 0 auto;
+    }
+
+    #navbar-content {
+        display: flex;
+        gap: 9vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar-content li {
+        font-size: 2vw;
+        color: #1E293B;
+        font-family: Poppins, sans-serif;
+    }
+
 }

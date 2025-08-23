@@ -61,11 +61,11 @@ function ExperiencePage() {
         <div id="experience">
 
             {activeIndex !== null ? (
-                <div className='experience-container'>
+                <div>
                     <div className="timeline-content-container">
                         <div id='timeline-content-selected'>
-                            <div className="company-header">
-                                <img src={experiences[activeIndex].logo} alt="company logo" className="company-logo" />
+                            <div id="company-header">
+                                <img src={experiences[activeIndex].logo} alt="company logo" id="company-logo" />
                                 <h3>{experiences[activeIndex].company}</h3>
                             </div>
                             <h4>{experiences[activeIndex].role}</h4>
@@ -83,7 +83,7 @@ function ExperiencePage() {
                     <p className='note'> Please scroll through some job experiences </p>
                 </div>
             ) : (
-                <div className='experience-container'>
+                <div>
                     <div className="timeline-content-container">
                         <div id='timeline-content-not-selected'>
                             <p>Please select an experience to view details.</p>

@@ -8,3 +8,16 @@
     bottom: 0;
     z-index: 100;
 }
+
+@media (max-width: 768px) {
+    #footer {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1vh;
+        color: #64748B;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 100;
+    }
+}

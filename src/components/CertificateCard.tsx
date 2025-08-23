@@ -6,11 +6,11 @@ import LinkIcon from '../assets/logo/link.svg';
 interface CertificateCardProps {
   title: string;
   issueDate: string;
-  cerificate: string;
   source: string;
+  onLinkClick?: () => void;
 }
 
-function CertificateCard({ title, issueDate, cerificate, source }: CertificateCardProps) {
+function CertificateCard({ title, issueDate, source, onLinkClick }: CertificateCardProps) {
   return (
     <div id='certificate-cards'>
       {source === "linkedin" ? (
@@ -22,7 +22,7 @@ function CertificateCard({ title, issueDate, cerificate, source }: CertificateCa
         <h3>{title}</h3>
         <p>Issued: {issueDate}</p>
       </div>
-      <img id="link-icon" src={LinkIcon} />
+      <img id="link-icon" src={LinkIcon} onClick={onLinkClick} />
     </div>
 
   );

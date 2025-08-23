@@ -132,3 +132,81 @@
     color: #1E293B;
     margin: 2.5vh 2vw;
 }
+
+@media (max-width: 768px) {
+    #modal-content {
+        width: 80vw;
+        height: 50vh;
+        background-color: #FFFFFF;
+        position: relative;
+        border-radius: 2vw;
+        padding: 2vh 2vw;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .close-modal {
+        position: absolute;
+        top: 1vh;
+        right: 4.5vw;
+        width: 2vw;
+        height: 2vw;
+        font-size: 4.5vw;
+    }
+
+    #email-text,
+    #subject-text,
+    #message-text {
+        color: #1E293B;
+        margin-left: 1.2vw;
+    }
+
+    .form-input-box {
+        height: 3vh;
+        width: 95%;
+        margin-bottom: 2vh;
+        border-color: #3B82F6;
+        border-style: solid;
+        color: #334155; 
+        font-family: Roboto, sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #form-message-box {
+        height: 15vh;
+        width: 95%;
+        margin-bottom: 1.5vh;
+        border-color: #3B82F6;
+        border-style: solid;
+        resize: none;
+        color: #334155; 
+        font-family: Roboto, sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #submit-button {
+        height: 3vh;
+        width: 90%;
+        color: #FFFFFF;
+        background-color: #3B82F6;
+        border-style: solid;
+        border-color: transparent;
+        font-family: Roboto, sans-serif;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #email-note {
+        font-style: italic;
+        font-family: Roboto, sans-serif;
+        color: #334155;
+        font-size: 0.8vh;
+        margin: 0 auto 1.8vh auto;
+        width: 95%;
+    }
+}

@@ -38,3 +38,30 @@
     margin-left: auto;
     margin-right: 0.5rem;
 }
+
+@media (max-width: 768px) {
+    #certificate-cards {
+        position: relative;
+        height: 7vh;
+        width: 80vw;
+        background-color: #EEF8FF;
+        border-radius: 1.5vw;
+        z-index: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #certificate-cards h3 {
+        font-size: 1.3vh;
+        color: #1E293B;
+        font-family: Poppins, sans-serif;
+    }
+
+    #certificate-cards p {
+        font-size: 1vh;
+        color: #1E293B;
+        font-family: Roboto, sans-serif;
+    }
+}

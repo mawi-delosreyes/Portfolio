@@ -19,7 +19,6 @@ import Email from '../components/Email';
 import resume from '/Mark_de_los_Reyes_Resume.pdf'
 
 function AboutPage() {
-    const [showResume, setShowResume] = useState(false);
     const [showEmailForm, setShowEmailForm] = useState(false);
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -54,7 +53,20 @@ function AboutPage() {
 
                 <div id='button-layout'>
                     <button className="buttons" id='email-button' onClick={() => setShowEmailForm(true)}>GET IN TOUCH!</button>
-                    <button className='buttons' id='resume-button' onClick={() => setIsPopupOpen(true)}>VIEW RESUME</button>
+                    <button
+                        className='buttons'
+                        id='resume-button'
+                        onClick={() => {
+                            const isMobile = window.innerWidth <= 768;
+                            if (isMobile) {
+                                window.open(resume, '_blank');
+                            } else {
+                                setIsPopupOpen(true);
+                            }
+                        }}
+                    >
+                        VIEW RESUME
+                    </button>
                     <Popup 
                         isOpen={isPopupOpen} 
                         onClose={() => setIsPopupOpen(false)} 
