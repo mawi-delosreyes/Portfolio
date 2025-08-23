@@ -81,8 +81,8 @@
 @media (max-width: 768px) {
     .project-card {
         height: 25vh;
-        width: 80vw;
-        margin: 0 auto;
+        width: 90vw;
+        margin: auto;
         border-radius: 1vh;
     }
 

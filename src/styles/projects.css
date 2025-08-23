@@ -12,18 +12,18 @@
 @media (max-width: 768px) {
   .project-card-container {
     margin: 2vh auto 0 auto;
-    max-width: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
-    height: 73vh;
+    height: 72vh;
     overflow-y: auto;
     padding-bottom: 8vh;
     box-sizing: border-box;
     scrollbar-width: none; 
     gap: 2vh;
+    background-color: rgb(14, 60, 101);
   }
 }
