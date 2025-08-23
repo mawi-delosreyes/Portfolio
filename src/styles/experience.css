@@ -169,7 +169,7 @@
 @media (max-width: 768px) {
     #experience {
         position: relative;
-        height: 90vh;
+        height: 70vh;
         width: 90vw;
         background-color: transparent;
         display: flex;
