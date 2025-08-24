@@ -85,9 +85,9 @@
     #profile-picture {
         border-radius: 25vw;
         border: 2px solid #CBD5E1;
-        width: 20vh;
-        height: 20vh;
-        margin: 1vh auto 0 auto;
+        width: 20dvh;
+        height: 20dvh;
+        margin: 1dvh auto 0 auto;
     }
 
     #about-container {
@@ -95,8 +95,8 @@
         align-items: center;
         justify-content: center;
         max-width: 90%;
-        gap: 2vh;
-        margin: 2vh auto 0 auto;
+        gap: 2dvh;
+        margin: 2dvh auto 0 auto;
         padding-left: 3vw;
         padding-right: 3vw;
     }
@@ -128,19 +128,19 @@
 
     #button-layout {
         flex-direction: column;
-        gap: 1.5vh;
-        margin-top: 2vh;
+        gap: 1.5dvh;
+        margin-top: 2dvh;
         align-items: stretch;
     }
 
     .buttons {
         width: 100%;
         height: 40px;
-        font-size: 1.5vh;
+        font-size: 1.5dvh;
         border-radius: 8px;
     }
 
     #email-button, #resume-button {
-        font-size: 1.5vh;
+        font-size: 1.5dvh;
     }
 }
