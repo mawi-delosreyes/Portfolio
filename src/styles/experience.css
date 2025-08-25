@@ -169,7 +169,7 @@
 @media (max-width: 768px) {
     #experience {
         position: relative;
-        height: 78vh;
+        height: 80%;
         width: 90%;
         background-color: transparent;
         display: flex;
@@ -177,14 +177,15 @@
         align-items: center;
         justify-content: flex-start;
         margin: 0 auto;
-        gap: 2.5vw;
+        gap: 0;
         z-index: 0;
         overflow: hidden;
     }
 
     .timeline-content-container {
-        height: 57vh;
+        height: clamp(50vh, 55vh, 60vh);
         width: 90vw;
+        border-radius: 2vw;
     }
 
     #company-logo {
@@ -246,20 +247,20 @@
 
     .timeline-dot {
         position: absolute;
-        top: 50%;
+        top: 50%;                    
         left: 50%;
         transform: translate(-50%, -50%);
         width: 1vh;
         height: 1vh;
         background-color: #E5E7EB;
         border: 0.2vw solid #CBD5E1;
-        border-radius: 1vw;
+        border-radius: 50%;
         z-index: 2;
     }
 
     .timeline-text {
         margin-left: 0;
-        margin-top: 5vh;
+        margin-top: 6vh;
         text-align: center;
         display: flex;
         flex-direction: column;

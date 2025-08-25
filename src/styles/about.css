@@ -83,11 +83,12 @@
 
 @media (max-width: 768px) {
     #profile-picture {
-        border-radius: 25vw;
+        border-radius: 25rem;
         border: 2px solid #CBD5E1;
-        width: 20dvh;
-        height: 20dvh;
-        margin: 1dvh auto 0 auto;
+        width: clamp(8rem, 35vw, 10rem);
+        height: auto;
+        display: block;
+        margin: 1rem auto 0 auto;
     }
 
     #about-container {
@@ -95,8 +96,8 @@
         align-items: center;
         justify-content: center;
         max-width: 90%;
-        gap: 2dvh;
-        margin: 2dvh auto 0 auto;
+        gap: clamp(0.75rem, 2vw, 2rem);;
+        margin: 1rem auto 0 auto;
         padding-left: 3vw;
         padding-right: 3vw;
     }
@@ -108,39 +109,39 @@
     }
 
     #about-text h2 {
-        font-size: 1.3rem;
+        font-size: clamp(1.3rem, 2vw, 2rem);
     }
 
     #professional-summary {
-        font-size: 1rem;
+        font-size: clamp(1rem, 3.5vw, 1.5rem);
     }
 
     #icons {
-        gap: 8px;
-        margin: 16px 0 0 0;
+        gap: clamp(0.75rem, 2vw, 2rem);;
+        margin: 1rem 0 0 0;
         flex-wrap: wrap;
     }
 
     .icon {
-        width: 28px;
-        height: 28px;
+        width: clamp(1.5rem, 40%, 3rem);
+        height: auto;
     }
 
     #button-layout {
         flex-direction: column;
-        gap: 1.5dvh;
-        margin-top: 2dvh;
+        gap: clamp(0.8rem, 1rem, 2rem);
+        margin-top: 1rem;
         align-items: stretch;
     }
 
     .buttons {
         width: 100%;
-        height: 40px;
-        font-size: 1.5dvh;
+        height: clamp(2.5rem, 8vw, 4rem);
+        font-size: clamp(1rem, 2vw, 1.25rem);
         border-radius: 8px;
     }
 
     #email-button, #resume-button {
-        font-size: 1.5dvh;
+        font-size: 1rem;
     }
 }

@@ -49,7 +49,7 @@
 
     #header-media {
         display: flex;
-        gap: 2vw;
+        gap: clamp(0.1rem, 1.5vw, 1.25rem);;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -59,11 +59,11 @@
 
     #header-name {
         margin-top: 1vw;
-        font-size: 1.3vh;
+        font-size: clamp(0.8rem, 1.3vw, 1.25rem);;
     }
 
     .header-icons {
-        height: 1.5vh;
-        width: 1.5vh; 
+        height: auto;
+        width: clamp(1rem, 40%, 2rem);
     }
 }
