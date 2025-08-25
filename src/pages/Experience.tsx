@@ -19,6 +19,7 @@ function ExperiencePage() {
     const experienceDetails = [
         [
           "Develop and maintain backend services using Java, Node.js, and PHP for consumer-facing web and mobile platforms (iOS & Android)",
+          "Write test cases using JUnit and Mockito",
           "Support 6 million monthly Australian active users by ensuring and maintaining backend infrastructure",
           "Review and address customer support issues",
           "Ensure functionality of the CMS tool used by meteorologists to publish weather news content",
@@ -31,13 +32,16 @@ function ExperiencePage() {
           "Project Handled: Weatherzone (Australia)"
         ],
         [
-          "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware across 15+ solar project sites and over 50 devices",
+          "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps",
+          "Maintained Flask-based API for real-time data from over 50 IoT hardware devices across 15+ project sites enabling reliable data collection and monitoring",
           "Designed and implemented relational database schemas using MySQL",
           "Optimized and refactored backend codebases for scalability and maintainability",
           "Managed cloud infrastructure using AWS services: EC2, IAM, Lambda, RDS, S3, SES, VPC, and CloudWatch",
           "Integrated payment gateways and weather APIs for internal systems",
           "Authored internal backend coding standards and comprehensive technical documentation",
-          "Led 2 major projects (Envision Monitoring and Envision EV)"
+          "Led 2 major projects:",
+          "Envision Monitoring - web and mobile - based analytics for monitoring solar grid-level data",
+          "Envision EV - remote EV charger control system and monitoring"
         ],
         [
           "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware",
