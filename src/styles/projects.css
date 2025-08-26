@@ -18,7 +18,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
-    height: clamp(40vh, 68vh, 75vh);
+    height: clamp(40vh, 69vh, 75vh);
     overflow-y: auto;
     padding-bottom: 8vh;
     box-sizing: border-box;
