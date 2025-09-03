@@ -13,7 +13,7 @@
 
 #modal-content {
     width: 30vw;
-    height: 57vh;
+    height: 60vh;
     background-color: #FFFFFF;
     position: relative;
     border-radius: 0.5vw;
@@ -87,6 +87,7 @@
     border-style: solid;
     color: #334155; 
     font-family: Roboto, sans-serif;
+    padding: 0.5vw;
 }
 
 #form-message-box {
@@ -97,6 +98,7 @@
     resize: none;
     color: #334155; 
     font-family: Roboto, sans-serif;
+    padding: 0.5vw;
 }
 
 #submit-button {
