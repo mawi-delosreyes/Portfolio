@@ -141,9 +141,10 @@
 }
 
 #experience-details-container {
-    height: 47vh;
+    height: 45vh;
     overflow: scroll;
     scrollbar-width: none;
+    margin-top: 0.5vh;
     margin-bottom: 1vh;
 }
 
