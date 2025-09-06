@@ -88,7 +88,7 @@
     color: #334155; 
     font-family: Roboto, sans-serif;
     padding: 0.5vw;
-    border-radius: 0.5vw;
+    border-radius: 0.3vw;
 }
 
 #form-message-box {
@@ -100,7 +100,7 @@
     color: #334155; 
     font-family: Roboto, sans-serif;
     padding: 0.5vw;
-    border-radius: 0.5vw;
+    border-radius: 0.3vw;
 }
 
 #submit-button {
