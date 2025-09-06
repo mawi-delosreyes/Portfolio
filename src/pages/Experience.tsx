@@ -29,7 +29,7 @@ function ExperiencePage() {
           "Implement CI/CD pipelines via GitLab and manage version control using GitLab",
           "Collaborate with cross-functional teams and stakeholders across departments",
           "Produce technical documentation, architecture diagrams, and research reports for backend systems",
-          "Project Handled: Weatherzone (Australia)"
+          <>Project Handled: <a href="https://www.weatherzone.com.au" target="_blank" rel="noopener noreferrer">Weatherzone (Australia)</a></>        
         ],
         [
           "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps",
@@ -39,9 +39,12 @@ function ExperiencePage() {
           "Managed cloud infrastructure using AWS services: EC2, IAM, Lambda, RDS, S3, SES, VPC, and CloudWatch",
           "Integrated payment gateways and weather APIs for internal systems",
           "Authored internal backend coding standards and comprehensive technical documentation",
-          "Led 2 major projects:",
-          "Envision Monitoring - web and mobile - based analytics for monitoring solar grid-level data",
-          "Envision EV - remote EV charger control system and monitoring"
+          <>Led 2 projects:
+          <div style={{ margin: 0, paddingTop: "5px", paddingLeft: "20px", listStyleType: "-", lineHeight: "1" }}>
+            <li> Envision Monitoring - web and mobile - based analytics for monitoring solar grid-level data </li>
+            <li> Envision EV - remote EV charger control system and monitoring </li>
+          </div>
+          </>
         ],
         [
           "Developed and maintained Python Flask-based APIs integrated with websites and mobile apps, processing incoming data from IoT hardware",
@@ -84,7 +87,7 @@ function ExperiencePage() {
                             </div>
                         </div>
                     </div>
-                    <p className='note'> Please scroll through some job experiences </p>
+                    <p className='note'> Please scroll through some of the job experiences </p>
                 </div>
             ) : (
                 <div>

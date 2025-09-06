@@ -67,7 +67,7 @@ function Email({ show, onClose, onSuccess }: EmailProps) {
                 <textarea rows={5} name="message" id='form-message-box' required></textarea>
               </div>
 
-              <p id='email-note'> Note: Due to EmailJS verification requirements, this message will be sent from my verified email address. However, the email you provide will be included as the reply-to address so I can respond to you directly. </p>
+              <p id='email-note'> Note: Due to EmailJS verification requirements, this message will be sent from my verified email address. The email you provide will be included as the reply-to address so I can respond to you directly. </p>
 
               <button
                 type="submit"
